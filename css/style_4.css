@@ -1,0 +1,47 @@
+.Title_02 {
+    width:100%;
+    margin-top: 100px;
+    height:450px;
+    background-image: url("../image/Title_02.jpg");
+    background-size: cover;
+  }
+  
+  .Title_02 > ul {
+    display: flex;
+    padding-top:138px;
+  }
+  
+  .Title_02 > ul > li {
+    flex: 1;
+    text-align: center;
+  }
+  .Title_02 > ul > li > div,
+  .Title_02 > ul > li > div > h1{
+    color: rgb(0, 0, 0);
+  }
+  .button2{
+    width:220px;
+    height:40px;
+    border: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    line-height: 40px;
+    cursor: pointer;
+    margin:16px auto;
+  }
+  .button2:hover{
+    color: White;
+    border:0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+  .banner{
+    display: flex;
+    background: #6e6e6e79;
+    padding:10px;
+  }
+  .banner > div {
+    flex:1;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+  }

@@ -1,0 +1,94 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding: 0px;
+    color: #000;
+}
+
+.text_01{
+  font-size: 50px;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.1px;
+	-webkit-text-stroke-color: rgba(0, 0, 0, 0.7)
+}
+.text_02{
+    font-size: 24px;
+    font-weight: lighter;
+}
+.text_03{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.text_04{
+  font-size: 28px;
+  font-weight: bold;
+}
+.text_05{
+    font-size: 18px;
+    font-weight: lighter;
+  }
+.main_bg{
+    background-image: url("../image/main_bg.jpg");
+    top: -100px;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.main_text{
+    width:100%;
+    margin-top: auto;
+    text-align: center;
+}
+  .main_text > h1{
+    color:#fff;
+}
+
+.header{
+    width: auto;
+    margin:auto;
+    display:flex;
+    height: 100px;
+}
+
+.nav{
+  margin-right: auto;
+  display: flex;
+  width:auto;
+  line-height: 100px;
+}
+.nav > li {
+  margin-left:100px;
+}
+
+.nav > li > a {
+  font-size: 18px;
+  color: #fff;
+}
+
+.searchArea{
+    margin-left: auto;
+    width:300px;
+    height:40px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-top:30px;
+}
+.searchArea > form > input{
+    border:none;
+    border-radius: 5px;
+    width:250px;
+    height:40px;
+    background: rgba(0, 0, 0, 0.5);
+    color:#fff;
+    padding-left:10px;
+}
+.searchArea > form > span{
+    width:50px;
+    color:#fff;
+    cursor: pointer;
+}
+
